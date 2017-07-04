@@ -8,8 +8,8 @@ const evenOrOdd = (n) => (n % 2 == 1 || n % 2 == -1) ? "Odd" : "Even";
 //    } else {
 //       return "Even";
 //    }
-// }
-
+// }c
+//
 console.log(evenOrOdd(0));
 
 // console.log(-3%2);
