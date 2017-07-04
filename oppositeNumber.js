@@ -8,6 +8,10 @@
 
 function opposite(number) {
   //your code here
+  if(number>=0){
+     number -= ((number * 2) + 1);
+     console.log(number);
+ }
 }
 
 console.log(opposite(1))
