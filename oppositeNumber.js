@@ -7,11 +7,7 @@
 // -34: 34
 
 function opposite(number) {
-  //your code here
-  if(number>=0){
-     number -= ((number * 2) + 1);
-     console.log(number);
- }
+     return number -= (number * 2);
 }
 
-console.log(opposite(1))
+console.log(opposite(4))
