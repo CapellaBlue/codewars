@@ -11,11 +11,11 @@
 
 var countBy = function(x, n){
    arr = [];
-   for (var i = x; arr.length = n; i++) {
+   for (var i = x; arr.length < n; i++) {
       if(i % x == 0)
       arr.push(i);
    };
    return arr;
 };
 
-console.log(countBy(1,10));
+console.log(countBy(2,5));
