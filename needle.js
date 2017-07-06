@@ -21,17 +21,17 @@
 // "found the needle at position 5"
 // "found the needle at position 5"
 
-var findNeedle = function(a){
+var find_needle = function(a){
    for (var i = 0; i < a.length; i++) {
       if( a[i] == 'needle'){
-         return "found the needle at position " + index;
+         return "found the needle at position " + i;
+      } else if (i == a.length - 1 && a[i] != 'needle') {
+         "no needle found";
       };
-
    };
-
 };
 
-find_needle(['hay', 'junk', 'hay', 'hay', 'moreJunk', 'needle', 'randomJunk'])
+console.log(find_needle(['hay', 'junk', 'hay', 'hay', 'moreJunk', 'needle', 'randomJunk']));
 // find_needle(['hay', 'junk', 'hay', 'hay', 'moreJunk', 'needle', 'randomJunk'])
 // findNeedle(['hay', 'junk', 'hay', 'hay', 'moreJunk', 'needle', 'randomJunk'])
 // findNeedle(new Object[] {"hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"})
